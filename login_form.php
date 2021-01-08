@@ -1,4 +1,4 @@
-<?php 
+<?php
 #this is Login form page , if user is already logged in then we will not allow user to access this page by executing isset($_SESSION["uid"])
 #if below statment return true then we will send user to their profile.php page
 if (isset($_SESSION["uid"])) {
@@ -30,6 +30,7 @@ if (isset($_POST["login_user_with_product"])) {
 	  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 		<script src="assets/vendor/jquery/jquery.min.js"></script>
 		<script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+		<script src="main.js"></script>
 		  <script src="https://kit.fontawesome.com/73ed2e87ff.js" crossorigin="anonymous"></script>
 		<link rel="stylesheet" type="text/css" href="assets/css/styles1.css">
 		<link rel="stylesheet" type="text/css" href="animate.css">
